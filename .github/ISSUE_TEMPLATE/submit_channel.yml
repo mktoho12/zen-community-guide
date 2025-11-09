@@ -1,0 +1,19 @@
+name: "📥 チャンネル掲載申請"
+description: "ZEN大学 Slack チャンネルをガイドブックに掲載申請します"
+title: "[掲載申請] {{ チャンネル名 }}"
+labels: ["application"]
+body:
+  - type: input
+    id: channel_name
+    attributes:
+      label: "チャンネル名"
+      description: "例: #study_ai"
+  - type: textarea
+    id: description
+    attributes:
+      label: "活動概要"
+      description: "どんな話題・目的のチャンネルですか？"
+  - type: input
+    id: contact
+    attributes:
+      label: "代表者連絡先 (任意)"
